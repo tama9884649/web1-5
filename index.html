@@ -1,17 +1,41 @@
 <!CODTYPE html>
+<html>
 <head>
-<meta charset="utf-8" />
-<title>普通の焼肉の作り方</title>
+  <meta charset="utf-8" />
+  <title>普通の焼肉の作り方</title>
 </head>
 <body>
-<h1>はじめに</h1>
-<p>焼肉の作り方を紹介します。<br>
-<strong>はじめましょう</strong></p>
-<h1>材料</h1>
-<p>次の材料を用意</p>
-<d1>
-<dt>豚バラ肉</dt><dd>500ｇ</dd>
-<dt>市販の焼肉のたれ</dt><dd>大さじ3杯</dd>
-</d1>
+  <h1>はじめに</h1>
+  <p>焼肉の作り方を紹介します。<br>
+    <strong>はじめましょう</strong></p>
+  <h1>材料</h1>
+  <p>次の材料を用意</p>
+  <d1>
+    <dt>豚バラ肉</dt><dd>500ｇ</dd>
+    <dt>市販の焼肉のたれ</dt><dd>大さじ3杯</dd>
+  </d1> 
+  <p><video src="taki.mp4" width="320" controls autoplay>video要素をサポートしていないブラウザで閲覧されています。
+    他のブラウザで御覧ください。 </video></p>
+  <table>
+    <tr><th>材料名</th><th>分量</th><th>単位</th></tr>
+    <tr><td>豚バラ肉</td><td>500</td><td>ｇ</td></tr>
+    <tr><td>市販の焼肉のたれ</td><td>大さじ3</td><td>杯</td></tr>
+  </table>
+  <h1>アンケート</h1>
+  <form id="top" action="#" method="post">
+    <p><input type="text" name="input1"></p>
+    <p><input type="submit" value="送信">
+      <input type="reset" value="取り消し"></p>    
+  <p>好きな肉は
+    <input type="radio" name="input11" value="beef" checked>牛
+    <input type="radio" name="input11" value="pook">豚
+    <input type="checkbox" name="input11" value="beef" checked>牛
+    <input type="checkbox" name="input11" value="pook">豚
+    <select name="input13">
+      <option value="beef">牛
+      <option value="pook">豚
+    </select>
+    </p>
+    </form>
 </body>
 </html>
